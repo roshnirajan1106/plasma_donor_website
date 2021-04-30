@@ -1,0 +1,238 @@
+<html class=no-js>
+
+<head>
+    <title>donate now</title>
+    <style>
+        .button {
+            background: #ffe6cc;
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 220px;
+            height: 50px;
+        }
+
+        .button1 {
+            padding-left: 41%;
+            margin-top: 200px;
+        }
+
+        .slider {
+            padding-top: 40px;
+            padding-left: 500px;
+        }
+
+        h2 {
+            font-weight: normal;
+
+            padding-top: 10px;
+            font-size: 40px;
+
+            width: 100%;
+            text-align: center;
+        }
+
+        select {
+            width: 500;
+            height: 50px;
+            cursor: pointer;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            color: black;
+        }
+
+        .btn {
+            background: linear-gradient(to left, #800000 0%, #ff3300 100%);
+            border: 1px solid orange;
+            font-size: 23px;
+            padding: 5px 20px;
+
+            cursor: pointer;
+            margin: 0px;
+            transition: 0.8s;
+            position: relative;
+            overflow: hidden;
+            width: 200px;
+            height: 60px;
+        }
+
+        /* Styling btn1, btn2 class */
+        .btn1,
+        .btn2 {
+            color: white;
+        }
+
+        /* Creating animation effect */
+        .btn1:hover,
+        .btn2:hover {
+            color: white;
+            background: linear-gradient(to right, #ff6600 0%, #ff0000 100%);
+        }
+
+        .btn::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 0%;
+            background: green;
+            z-index: -1;
+            transition: 0.8s;
+        }
+
+        .btn1::before {
+		height: 180%;
+            top: 0;
+            border-radius: 0 0 50% 50%;
+        }
+
+        .btn2::before {
+		height: 180%;
+            bottom: 0;
+            border-radius: 50% 50% 0 0;
+        }
+
+        .btn1:hover::before,
+        .btn2:hover::before {
+            height: 180%;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HELPING HANDS FOR PLASMA DONATION &mdash; </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+
+
+
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'> -->
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Superfish -->
+    <link rel="stylesheet" href="css/superfish.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 text-left fh5co-link">
+                    <a href="faq.html">FAQ</a>
+
+                    <a href="ContactForm.html">Contact</a>
+                </div>
+                <div class="col-md-6 col-sm-6 text-right fh5co-social">
+                    <a href="#" class="grow"><i class="icon-facebook2"></i></a>
+                    <a href="#" class="grow"><i class="icon-twitter2"></i></a>
+                    <a href="#" class="grow"><i class="icon-instagram2"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header id="fh5co-header-section" class="sticky-banner">
+        <div class="container">
+            <div class="nav-header">
+                <img src="images/logo4.jpg"
+                    style="width:9%;padding:3px; hight:9%;padding-top:8px;margin-left:-135px;float:left">
+                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+
+                <h1 id="fh5co-logo"><a href="index.html">Helping Hands for Plasma Donors</a></h1>
+                <!-- START #fh5co-menu-wrap -->
+                <nav id="fh5co-menu-wrap" role="navigation">
+                    <ul class="sf-menu" id="fh5co-primary-menu">
+                        <li class="active">
+                            <a href="index.html" class="active active-first">Home</a>
+                        </li>
+                        <li><a href="blog.html">What is Covid-19</a></li>
+                        <li>
+                            <a href="#" class="fh5co-sub-ddown">Services</a>
+                            <ul class="fh5co-sub-menu">
+                                <li><a href="#">Register as a Donor</a></li>
+                                <li><a href="#">Register as a Patient</a></li>
+                                <li><a href="#">Contribute</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="faq.html">Help</a></li>
+
+                        <li><a href="about.html">AboutUs</a></li>
+                        <li><a href="ContactForm.html">Contact Us</a></li>
+
+
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div style="height:100%;margin:0 auto;">
+        <div>
+            <h2 style="color:white">Give a little. Help a lot.</h2>
+        </div>
+        <div >
+            <h1 style="color:red;padding-left:200px" >Select a Plasma Donation centers you wish to Donate!</h1>
+            <div class="slider"><select name="donation to campaigns">
+                <option value="campaign">CSL Plasma</option>
+                <option value="campaign">BPL plasma</option>
+                <option value="campaign" selected> BioLife plasma</option>
+                <option value="campaign">Grifols Biomat plasma</option>
+                <option value="campaign">GCAM Plasma</option>
+                <option value="campaign"> ImmunoTek Bio Centers</option>
+                <option value="campaign"> Octapharma plasma</option>
+                <option value="campaign">Snaldeal</option>
+                <option value="campaign"> ADMA Bio Center</option>
+                <option value="campaign">Hemarus Plasma</option>
+
+                <option value="none">none</option>
+            </select>
+			</div>
+        </div>
+        <div class="button1">
+          <form action="/paytm" method="get">
+              <button class="btn btn1" type="submit" >Donate Now</button>
+          </form>
+          <!-- onclick="window.location.href='paytm//TxnTest.php';" -->
+
+        </div>
+        <p>
+        <h2>Don&#39;t delay give today!</p>

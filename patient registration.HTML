@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: pink;
+}
+.container {
+    padding: 350px;
+	padding-top:50px;
+	padding-bottom:50px;
+  background-color: lightblue;
+}
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: orange;
+  outline: none;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+#content{
+width:80%;
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px;  
+
+  
+border-top-width: 2px;  
+
+border-right-width: 2px;  
+
+border-bottom-width: 2px;  
+
+border-left-width: 2px;  
+
+ 
+
+
+}
+
+</style>
+</head>
+<body>
+<form>
+  <div class="container">
+  <center>  <h1> Patient Registeration Form</h1> </center>
+  <hr>
+  <center><p id="content">We are doing our level best to find matching donors in your city. This form will only take you a minute to complete.
+Well take it from there and will alert you when we find a suitable match for your blood group. </p></center>
+
+ <hr>
+
+
+<H3><label> Fullname:</label>
+<input type="text" name="firstname" placeholder= "Fullname"  required /> 
+<label> Age: </label> 
+<input type="text" name="middlename" placeholder="Age"  required /> 
+<label> Email: </label>  
+<input type="text" name="lastname" placeholder="Email" required /> 
+<label> Hospital Name: </label>  
+<input type="text" name="lastname" placeholder="Hospital Name" required /> 
+<label> Location: </label> 
+<input type="text" name="middlename" placeholder="Location"  required /> 
+<div>
+<label> 
+Blood Group :
+</label> 
+
+<select>
+<option value="Course">A+</option>
+<option value="BCA">A-</option>
+<option value="BBA">B+</option>
+<option value="B.Tech">B-</option>
+<option value="MBA">O+</option>
+<option value="MCA">O-</option>
+<option value="M.Tech">AB+</option>
+<option value="M.Tech">AB-</option>
+</select>
+</div>
+<div>
+<label> 
+Gender :
+</label><br>
+<input type="radio" value="Male" name="gender" checked > Male 
+<input type="radio" value="Female" name="gender"> Female 
+<input type="radio" value="Other" name="gender"> Other
+
+</div>
+<label> 
+Phone :
+</label>
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/> 
+<input type="text" name="phone" placeholder="phone no." size="10"/ required> 
+
+<label> Do you have a laboratory confirmed diagnosis of COVID-19?</label><br></br>
+<input type="radio" name="a">Yes
+<input type="radio" name="a" >No 
+<br></br>
+
+<label> Do you have a doctor’s prescription or case sheet?</label><br></br>
+<input type="radio" name="b">Yes
+<input type="radio" name="b">No 
+<br></br>
+<label><input type="submit" name="" value="Submit"></label>
+</body>
+</form>
+

@@ -1,0 +1,144 @@
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<section class="testimonial py-5" id="testimonial">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-4 py-5 bg-secondary text-white text-center ">
+        <div class=" ">
+          <div class="card-body">
+            <img src="http://www.ansonika.com/mavia/img/registration_bg.svg" style="width:30%">
+            <h2 class="py-3"> Donor Registration Form</h2>
+            <p><strong style="color:black"><%= title%></strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 py-5 border">
+        <h4 class="pb-4">Please fill with your details</h4>
+        <form action="/donor" method="post">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input id="Full Name" name="firstname" placeholder="Full Name" class="form-control" type="text">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" name="email" placeholder="Email" required>
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input id="Mobile No." name="phone" placeholder="Mobile No." class="form-control" required="required" type="text">
+            </div>
+            <div class="form-group col-md-6">
+
+              <select  name="bloodGroup" id="inputState" class="form-control">
+                <option  selected>Blood group</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input id="location" name="location" placeholder="Location" class="form-control" type="text">
+
+            </div>
+            <div class="form-group col-md-6">
+              <input id="age" name="age" placeholder="Age" class="form-control" type="text">
+            </div>
+
+          </div>
+          <div style="margin-bottom:17px" class="form-row">
+            <div class="form-group col-md-6">
+              <input id="birthday" name="birthday" placeholder="birthday" class="form-control" type="date">
+            </div>
+          </div>
+          <div style="margin-bottom:17px" class="form-row">
+            <div class="form-group col-md-6">
+              <label>
+                Gender :
+              </label>
+              <input style="margin-right:10px" type="radio" value="Male" name="gender" checked> Male
+              <input style="margin-right:10px" type="radio" value="Female" name="gender"> Female
+              <input style="margin-right:10px" type="radio" value="Other" name="gender"> Other
+            </div>
+
+
+          </div>
+
+          <div style="margin-bottom:17px" class="form-row">
+            <div class="form-group col-md-6">
+              <label> Did you ever get covid ?</label><br>
+              <input style="margin-right:10px" type="radio" value="yes" name="a">Yes
+              <input style="margin-right:10px" type="radio" value="no" name="a">No
+              </br>
+            </div>
+
+          </div>
+
+          <div style="margin-bottom:17px" class="form-row">
+            <div class="form-group col-md-6">
+              <label> Do you suffer from anemia or low hemoglobin levels?</label>
+              <input style="margin-right:8px" type="radio" value="yes" name="b">Yes
+              <input style="margin-right:8px" type="radio" value="no" name="b">No
+              <input style="margin-right:8px" type="radio" value="no" name="b">I Don't Know
+              </br>
+            </div>
+
+          </div>
+
+          <div style="margin-bottom:17px" class="form-row">
+            <div class="form-group col-md-6">
+              <label> Do you suffer from any infectious diseases like HIV, Hepatitis,TB,
+                Malaria?</label><br>
+              <input style="margin-right:8px" type="radio" value="yes" name="c">Yes
+              <input style="margin-right:8px" type="radio" value="no" name="c">No
+              <input style="margin-right:8px" type="radio" value="no" name="c">I Don't Know
+              </br>
+            </div>
+
+          </div>
+
+          <div style="margin-bottom:17px" class="form-row">
+            <div class="form-group col-md-6">
+              <label> Was your COVID test positive?</label><br>
+              <input style="margin-right:8px" type="radio" value="yes" name="d">Yes
+              <input style="margin-right:8px" type="radio" value="no" name="d">No
+
+
+            </div>
+
+          </div>
+
+
+          <div style="margin-bottom:17px" class="form-row">
+            <div class="form-group col-md-4">
+              <label>Has it been 14 days since the last day of COVID symptoms?</label><br>
+              <input style="margin-right: 8px" value="yes" type="radio" name="e">Yes
+              <input style="margin-right:8px" type="radio" value="no" name="e">No</input>
+
+            </div>
+
+          </div>
+
+
+          <br></br>
+          <div class="form-row">
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
