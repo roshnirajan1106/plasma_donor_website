@@ -129,22 +129,22 @@ figure {
 }
 
 .fh5co-cover,
-.fh5co-hero {
+.hero {
   position: relative;
   height: 800px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
-  .fh5co-hero {
+  .hero {
     height: 700px;
   }
 }
-.fh5co-cover.fh5co-hero-2,
-.fh5co-hero.fh5co-hero-2 {
+.fh5co-cover.hero-2,
+.hero.hero-2 {
   height: 600px;
 }
-.fh5co-cover.fh5co-hero-2 .fh5co-overlay,
-.fh5co-hero.fh5co-hero-2 .fh5co-overlay {
+.fh5co-cover.hero-2 .overlay,
+.hero.hero-2 .overlay {
   position: absolute !important;
   width: 100%;
   top: 0;
@@ -155,7 +155,7 @@ figure {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.fh5co-overlay {
+.overlay {
   position: absolute !important;
   width: 100%;
   top: 0;
