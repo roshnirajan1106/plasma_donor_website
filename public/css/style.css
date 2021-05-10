@@ -679,17 +679,17 @@ figure {
   line-height: 1.8;
 }
 
-#fh5co-portfolio {
+#portfolio {
   padding: 7em 0;
   min-height: 500px;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-portfolio {
+  #portfolio {
     padding: 3em 0;
   }
 }
 
-#fh5co-portfolio-list {
+#portfolio-list {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -704,7 +704,7 @@ figure {
   margin: 0;
   width: 100%;
 }
-#fh5co-portfolio-list li {
+#portfolio-list li {
   display: block;
   padding: 0;
   margin: 0 0 10px 1%;
@@ -718,18 +718,18 @@ figure {
   position: relative;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-portfolio-list li {
+  #portfolio-list li {
     margin-left: 0;
   }
 }
-#fh5co-portfolio-list li a {
+#portfolio-list li a {
   min-height: 400px;
   padding: 2em;
   position: relative;
   width: 100%;
   display: block;
 }
-#fh5co-portfolio-list li a:before {
+#portfolio-list li a:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -742,10 +742,10 @@ figure {
   transition: 0.5s;
   background: transparent;
 }
-#fh5co-portfolio-list li a:hover:before {
+#portfolio-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-portfolio-list li a .case-studies-summary {
+#portfolio-list li a .case-studies-summary {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -754,58 +754,58 @@ figure {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-portfolio-list li a .case-studies-summary {
+  #portfolio-list li a .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-portfolio-list li a .case-studies-summary span {
+#portfolio-list li a .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-portfolio-list li a .case-studies-summary h2 {
+#portfolio-list li a .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-portfolio-list li a .case-studies-summary h2 {
+  #portfolio-list li a .case-studies-summary h2 {
     font-size: 20px;
   }
 }
-#fh5co-portfolio-list li.two-third {
+#portfolio-list li.two-third {
   width: 65.6%;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-portfolio-list li.two-third {
+  #portfolio-list li.two-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-portfolio-list li.two-third {
+  #portfolio-list li.two-third {
     width: 100%;
   }
 }
-#fh5co-portfolio-list li.one-third {
+#portfolio-list li.one-third {
   width: 32.3%;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-portfolio-list li.one-third {
+  #portfolio-list li.one-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-portfolio-list li.one-third {
+  #portfolio-list li.one-third {
     width: 100%;
   }
 }
-#fh5co-portfolio-list li.one-half {
+#portfolio-list li.one-half {
   width: 49%;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-portfolio-list li.one-half {
+  #portfolio-list li.one-half {
     width: 100%;
   }
 }
