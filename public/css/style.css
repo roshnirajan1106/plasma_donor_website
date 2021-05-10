@@ -528,8 +528,8 @@ figure {
 #fh5co-content-section,
 #fh5co-work-section_2,
 #fh5co-blog-section,
-#fh5co-features {
-  padding: 7em 0;
+#features {
+  padding: 10em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-work-section,
@@ -537,7 +537,7 @@ figure {
   #fh5co-content-section,
   #fh5co-work-section_2,
   #fh5co-blog-section,
-  #fh5co-features {
+  #features {
     padding: 4em 0;
   }
 }
@@ -810,67 +810,67 @@ figure {
   }
 }
 
-#fh5co-features {
+#features {
   padding: 4em 0;
 }
-#fh5co-features .feature-left {
+#features .feature-left {
   margin-bottom: 0;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-features .feature-left {
+  #features .feature-left {
     margin-bottom: 30px;
   }
 }
-#fh5co-features .feature-left .icon i {
+#features .feature-left .icon i {
   color: #d9d9d9 !important;
 }
-#fh5co-features .feature-left .icon {
+#features .feature-left .icon {
   float: left;
   text-align: center;
   width: 15%;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-features .feature-left .icon {
+  #features .feature-left .icon {
     width: 10%;
   }
 }
 @media screen and (max-width: 768px) {
-  #fh5co-features .feature-left .icon {
+  #features .feature-left .icon {
     width: 15%;
   }
 }
-#fh5co-features .feature-left .feature-copy {
+#features .feature-left .feature-copy {
   float: right;
   width: 80%;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-features .feature-left .feature-copy {
+  #features .feature-left .feature-copy {
     width: 90%;
   }
 }
 @media screen and (max-width: 768px) {
-  #fh5co-features .feature-left .feature-copy {
+  #features .feature-left .feature-copy {
     width: 85%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-features .feature-left .feature-copy {
+  #features .feature-left .feature-copy {
     width: 80%;
   }
 }
-#fh5co-features .feature-left h3 {
+#features .feature-left h3 {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
 }
-#fh5co-features .feature-left p {
+#features .feature-left p {
   font-size: 15px;
 }
-#fh5co-features .feature-left p:last-child {
+#features .feature-left p:last-child {
   margin-bottom: 0;
 }
 
-#fh5co-feature-product {
+#feature-product {
   padding: 7em 0;
 }
 
