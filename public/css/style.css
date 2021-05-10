@@ -399,10 +399,10 @@ figure {
   padding: 1em .85em;
 }
 
-#fh5co-primary-menu > li > ul li.active > a {
+#primary-menu > li > ul li.active > a {
   color: #ff5722 !important;
 }
-#fh5co-primary-menu > li > .sf-with-ul:after {
+#primary-menu > li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
   speak: none;
@@ -423,10 +423,10 @@ figure {
   content: "\e922";
   color: rgba(0, 0, 0, 0.5);
 }
-#fh5co-primary-menu > li > ul li {
+#primary-menu > li > ul li {
   position: relative;
 }
-#fh5co-primary-menu > li > ul li > .sf-with-ul:after {
+#primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
   speak: none;
@@ -447,7 +447,7 @@ figure {
   color: rgba(0, 0, 0, 0.5);
 }
 
-#fh5co-primary-menu .fh5co-sub-menu {
+#primary-menu .sub-menu {
   padding: 10px 7px 10px;
   background: #fff;
   left: 0;
@@ -461,11 +461,11 @@ figure {
   -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
-#fh5co-primary-menu .fh5co-sub-menu > li > .fh5co-sub-menu {
+#primary-menu .sub-menu > li > .sub-menu {
   left: 100%;
 }
 
-#fh5co-primary-menu .fh5co-sub-menu:before {
+#primary-menu .sub-menu:before {
   position: absolute;
   top: -9px;
   left: 20px;
@@ -474,7 +474,7 @@ figure {
   content: '';
 }
 
-#fh5co-primary-menu .fh5co-sub-menu:after {
+#primary-menu .sub-menu:after {
   position: absolute;
   top: -8px;
   left: 21px;
@@ -487,12 +487,12 @@ figure {
   content: '';
 }
 
-#fh5co-primary-menu .fh5co-sub-menu .fh5co-sub-menu:before {
+#primary-menu .sub-menu .sub-menu:before {
   top: 6px;
   left: 100%;
 }
 
-#fh5co-primary-menu .fh5co-sub-menu .fh5co-sub-menu:after {
+#primary-menu .sub-menu .sub-menu:after {
   top: 7px;
   right: 100%;
   border: none !important;
@@ -510,7 +510,7 @@ figure {
   display: none;
 }
 
-#fh5co-primary-menu .fh5co-sub-menu a {
+#primary-menu .sub-menu a {
   letter-spacing: 0;
   padding: 0 15px;
   font-size: 18px;
@@ -519,7 +519,7 @@ figure {
   text-transform: none;
   background: none;
 }
-#fh5co-primary-menu .fh5co-sub-menu a:hover {
+#primary-menu .sub-menu a:hover {
   color: #ff5722 !important;
 }
 
@@ -1254,14 +1254,14 @@ figure {
 #offcanvas-menu ul li a:hover {
   color: #ff5722;
 }
-#offcanvas-menu ul li > .fh5co-sub-menu {
+#offcanvas-menu ul li > .sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
   color: #ff5722;
 }
-#offcanvas-menu ul .fh5co-sub-menu {
+#offcanvas-menu ul .sub-menu {
   display: block !important;
 }
 
