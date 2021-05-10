@@ -345,13 +345,14 @@ figure {
   border-left-color: #ccc;
 }
 
-#fh5co-header-section {
+#page-header-section {
   padding: 0;
   position: relative;
   left: 0;
   width: 100%;
   z-index: 1022;
   background: #fff;
+  height:10%
 }
 
 .nav-header {
@@ -360,7 +361,7 @@ figure {
   width: 100%;
 }
 
-#fh5co-logo {
+#logo {
   position: relative;
   z-index: 2;
   font-size: 22px;
@@ -368,33 +369,34 @@ figure {
   margin-top: 35px;
   font-weight: 700;
   float: left;
+  margin-left: -180px;
 }
-#fh5co-logo span {
+#logo span {
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-logo {
+  #logo {
     width: 100%;
     float: none;
     text-align: center;
   }
 }
-#fh5co-logo a {
+#logo a {
   color: #ff5722;
 }
-#fh5co-logo a:hover, #fh5co-logo a:focus {
-  color: #ff5722 !important;
+#logo a:hover, #fh5co-logo a:focus {
+  color:grey !important;
 }
 
-#fh5co-menu-wrap {
+#menu-bar {
   position: relative;
   z-index: 2;
   display: block;
   float: right;
   margin-top: 15px;
 }
-#fh5co-menu-wrap .sf-menu a {
-  padding: 1em .75em;
+#menu-bar .sf-menu a {
+  padding: 1em .85em;
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
@@ -1187,7 +1189,7 @@ figure {
   opacity: 0;
 }
 
-#fh5co-wrapper {
+#page-wrap {
   overflow-x: hidden;
   position: relative;
 }
@@ -1195,17 +1197,17 @@ figure {
 .fh5co-offcanvas {
   overflow: hidden;
 }
-.fh5co-offcanvas #fh5co-wrapper {
+.fh5co-offcanvas #page-wrap {
   overflow: hidden !important;
 }
 
-#fh5co-page {
+#page {
   position: relative;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-offcanvas #fh5co-page {
+.fh5co-offcanvas #page {
   -moz-transform: translateX(-240px);
   -webkit-transform: translateX(-240px);
   -ms-transform: translateX(-240px);
@@ -1214,7 +1216,7 @@ figure {
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-menu-wrap {
+  #menu-bar {
     display: none;
   }
 }
