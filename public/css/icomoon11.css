@@ -217,7 +217,7 @@
 .icon-anchor:before {
     content: "\e03f";
 }
-.icon-profile-male:before {
+.icon-profile:before {
     content: "\e040";
 }
 .icon-profile-female:before {
