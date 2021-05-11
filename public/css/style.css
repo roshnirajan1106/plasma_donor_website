@@ -345,7 +345,7 @@ figure {
   border-left-color: #ccc;
 }
 
-#page-header-section {
+#fh5co-header-section {
   padding: 0;
   position: relative;
   left: 0;
@@ -361,7 +361,7 @@ figure {
   width: 100%;
 }
 
-#logo {
+#fh5co-logo {
   position: relative;
   z-index: 2;
   font-size: 22px;
@@ -371,38 +371,38 @@ figure {
   float: left;
   margin-left: -180px;
 }
-#logo span {
+#fh5co-logo span {
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
-  #logo {
+  #fh5co-logo {
     width: 100%;
     float: none;
     text-align: center;
   }
 }
-#logo a {
+#fh5co-logo a {
   color: #ff5722;
 }
-#logo a:hover, #fh5co-logo a:focus {
+#fh5co-logo a:hover, #fh5co-logo a:focus {
   color:grey !important;
 }
 
-#menu-bar {
+#fh5co-menu-wrap {
   position: relative;
   z-index: 2;
   display: block;
   float: right;
   margin-top: 15px;
 }
-#menu-bar .sf-menu a {
+#fh5co-menu-wrap .sf-menu a {
   padding: 1em .85em;
 }
 
-#primary-menu > li > ul li.active > a {
+#fh5co-primary-menu > li > ul li.active > a {
   color: #ff5722 !important;
 }
-#primary-menu > li > .sf-with-ul:after {
+#fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
   speak: none;
@@ -423,10 +423,10 @@ figure {
   content: "\e922";
   color: rgba(0, 0, 0, 0.5);
 }
-#primary-menu > li > ul li {
+#fh5co-primary-menu > li > ul li {
   position: relative;
 }
-#primary-menu > li > ul li > .sf-with-ul:after {
+#fh5co-primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
   speak: none;
@@ -447,7 +447,7 @@ figure {
   color: rgba(0, 0, 0, 0.5);
 }
 
-#primary-menu .sub-menu {
+#fh5co-primary-menu .sub-menu {
   padding: 10px 7px 10px;
   background: #fff;
   left: 0;
@@ -461,11 +461,11 @@ figure {
   -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
-#primary-menu .sub-menu > li > .sub-menu {
+#fh5co-primary-menu .sub-menu > li > .sub-menu {
   left: 100%;
 }
 
-#primary-menu .sub-menu:before {
+#fh5co-primary-menu .sub-menu:before {
   position: absolute;
   top: -9px;
   left: 20px;
@@ -474,7 +474,7 @@ figure {
   content: '';
 }
 
-#primary-menu .sub-menu:after {
+#fh5co-primary-menu .sub-menu:after {
   position: absolute;
   top: -8px;
   left: 21px;
@@ -487,18 +487,18 @@ figure {
   content: '';
 }
 
-#primary-menu .sub-menu .sub-menu:before {
+#fh5co-primary-menu .sub-menu .sub-menu:before {
   top: 6px;
   left: 100%;
 }
 
-#primary-menu .sub-menu .sub-menu:after {
+#fh5co-primary-menu .sub-menu .sub-menu:after {
   top: 7px;
   right: 100%;
   border: none !important;
 }
 
-.site-header.has-image #primary-menu .sub-menu {
+.site-header.has-image #fh5co-primary-menu .sub-menu {
   border-color: #ebebeb;
   -webkit-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
@@ -506,11 +506,11 @@ figure {
   -o-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
   box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
 }
-.site-header.has-image #primary-menu .sub-menu:before {
+.site-header.has-image #fh5co-primary-menu .sub-menu:before {
   display: none;
 }
 
-#primary-menu .sub-menu a {
+#fh5co-primary-menu .sub-menu a {
   letter-spacing: 0;
   padding: 0 15px;
   font-size: 18px;
@@ -519,7 +519,7 @@ figure {
   text-transform: none;
   background: none;
 }
-#primary-menu .sub-menu a:hover {
+#fh5co-primary-menu .sub-menu a:hover {
   color: #ff5722 !important;
 }
 
@@ -1189,7 +1189,7 @@ figure {
   opacity: 0;
 }
 
-#page-wrap {
+#fh5co-wrapper {
   overflow-x: hidden;
   position: relative;
 }
@@ -1197,17 +1197,17 @@ figure {
 .fh5co-offcanvas {
   overflow: hidden;
 }
-.fh5co-offcanvas #page-wrap {
+.fh5co-offcanvas #fh5co-wrapper {
   overflow: hidden !important;
 }
 
-#page {
+#fh5co-page{
   position: relative;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-offcanvas #page {
+.fh5co-offcanvas #fh5co-page {
   -moz-transform: translateX(-240px);
   -webkit-transform: translateX(-240px);
   -ms-transform: translateX(-240px);
@@ -1216,7 +1216,7 @@ figure {
 }
 
 @media screen and (max-width: 768px) {
-  #menu-bar {
+  #fh5co-menu-wrap{
     display: none;
   }
 }

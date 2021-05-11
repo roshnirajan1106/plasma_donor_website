@@ -1,26 +1,26 @@
-.faq-section {
-    background: #fdfdfd;
+.section {
+    background: 	#F5F5F5;
     min-height: 100vh;
     padding: 10vh 0 0;
 }
-.faq-title h2 {
+.title h2 {
   position: relative;
   margin-bottom: 45px;
   display: inline-block;
   font-weight: 600;
   line-height: 1;
 }
-.faq-title h2::before {
+.title h2::before {
     content: "";
     position: absolute;
     left: 50%;
     width: 60px;
-    height: 2px;
-    background: #E91E63;
-    bottom: -25px;
+    height: 3px;
+    background:  #ff471a;
+    bottom: -20px;
     margin-left: -30px;
 }
-.faq-title p {
+.title p {
   padding: 0 190px;
   margin-bottom: 10px;
 }
@@ -49,7 +49,7 @@
 
 .faq .card .card-header:hover {
     background: rgba(233, 30, 99, 0.1);
-    padding-left: 10px;
+    padding-left: 8px;
 }
 .faq .card .card-header .faq-title {
   width: 100%;
@@ -80,7 +80,7 @@
   -moz-border-radius: 100px;
   border-radius: 100px;
   text-align: center;
-  background: #E91E63;
+  background:  #ff471a;
   color: #fff;
   font-size: 12px;
   margin-right: 20px;
