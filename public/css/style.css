@@ -229,11 +229,11 @@ figure {
   color: #fff;
 }
 .fh5co-cover .desc span a:hover, .fh5co-cover .desc span a:focus {
-  color: #fff !important;
+  color:#fff !important;
 }
 .fh5co-cover .desc span a:hover.btn, .fh5co-cover .desc span a:focus.btn {
   border: 2px solid #fff !important;
-  background: transparent !important;
+  background:#f85220 !important;
 }
 .fh5co-cover .desc span a.fh5co-site-name {
   padding-bottom: 2px;
